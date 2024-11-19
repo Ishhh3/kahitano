@@ -42,7 +42,7 @@ function getUsers(){
            
            
             //storing the elements to variable html
-            html+=`<li>${element.itemName} ${element.unitPrice}</li>`
+            html+=`<li>${element.first_name} ${element.last_name}</li>`
 
 
         })
